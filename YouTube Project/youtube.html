@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YouTube.com Clone</title>
+</head>
+<link rel="stylesheet" href="Ystyles/General.css">
+<link rel="stylesheet" href="Ystyles/Header.css">
+<link rel="stylesheet" href="Ystyles/Video.css">
+<link rel="stylesheet" href="Ystyles/sidebar.css">
+<body>
+    <header class="Header">
+        <div class="left-section">
+            <img class="hamburger-menu"src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar"type="text" placeholder="search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon"src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icons-container">
+                <img class="upload-icons"src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icons-container">
+                <img class="youtube-apps-icons" src="icons/youtube-apps.svg">
+                <div class="tooltip">youtube apps</div>
+
+            </div>
+            <div class="notifications-icons-container">
+                <img class="notifications-icons" src="icons/notifications.svg">
+                <div class="notifications-count">7</div>
+                <div class="tooltip">notifications</div>
+            </div>
+            <img class="current-user-picture" src="channel/channel-profile.jpg" alt="channel-picture">
+        </div>
+    </header>
+    <nav class="side-bar">
+       <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <div>Explore</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>Originals</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <div>YouTube Music</div>
+       </div>
+       <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>Library</div>
+       </div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                    <div class="video-time">
+                        4:32
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-1.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Kollagottinadhiro -Lyrical|Hari Hara Veera Mallu|PSPK
+                        </p>
+                        <p class="video-author">
+                            Tips Telugu
+                        </p>
+                        <p class="video-stats">                 
+                            16M views  6 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                    <div class="video-time">
+                        3:51
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-2.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Madhuvaramae | Return of The Dragon | Pradeep Ranganathan, Kayadu Lohar
+                        </p>
+                        <p class="video-author">      
+                            Think Music India
+                        </p>
+                        <p class="video-stats">                                    
+                            2.3M views . 1 month ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                    <div class="video-time">
+                        9:13
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-3.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                        <p class="video-author">
+                            SSSniperWolf
+                        </p>
+                        <p class="video-stats">12M views · 1 year ago
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                    <div class="video-time">
+                        22:22
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-4.jpeg">
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                        </p>
+                        <p class="video-author">
+                            Veritasium
+                        </p>
+                        <p class="video-stats">
+                            18M views · 4 months ago
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                    <div class="video-time">
+                        11:42
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-5.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="video-author">
+                            CS Dojo
+                        </p>
+                        <p class="video-stats">519K views · 5 years ago
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                    <div class="video-time">
+                        19:47
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-6.jpeg">
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title">
+                            Anything You Can Fit In The Circle I’ll Pay For
+    
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-stats">
+                            141M views · 1 year ago
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                    <div class="video-time">
+                        14:20
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-7.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-stats">                 
+                            3.4M views . 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                    <div class="video-time">
+                        9:13
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-8.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        <p class="video-stats">                 
+                            19M views  4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                    <div class="video-time">
+                        10:49
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-9.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Varun Chakravarthy Spins Kwiis into Trouble Teams Past Records
+                        </p>
+                        <p class="video-author">
+                            GBB Cricket
+                        </p>
+                        <p class="video-stats">                 
+                            134k views . 16 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                    <div class="video-time">
+                        3:09
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-10.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Chhaava Telugu Trailer | Vicky | Rashmika | Dinesh V | Laxman U | Allu Aravind | Bunny Vas | 7th Mar
+                        </p>
+                        <p class="video-author">
+                            Geetha Arts 
+                        </p>
+                        <p class="video-stats">                 
+                            1.8M views . 7 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                    <div class="video-time">
+                        22:54
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-11.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            మోటు పాట్లు పూర్తి ఎపిసోడ్ 73 | Motu Patlu Full Episode 73
+                        </p>
+                        <p class="video-author">
+                            Sonic Gang Telugu
+                        </p>
+                        <p class="video-stats">                 
+                            868K views . 9 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                    <div class="video-time">
+                        13:19
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-12.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Sri Venkatesha Suprabhatam | New Year 2025 | Sri Vaikuntha Ekadashi | ISKCON Vaikuntha Hill
+                        </p>
+                        <p class="video-author">
+                           ISKCON Bangalore Music
+                        </p>
+                        <p class="video-stats">                                      
+                            2M views . 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-13.webp">
+                    <div class="video-time">
+                        9:23
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-13.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Lingashtakam|Lord Shiva Telugu Devotional Songs  
+                        </p>
+                        <p class="video-author">
+                            Telugu Bhakti Songs
+                        </p>
+                        <p class="video-stats">                 
+                            67,026 views . 11 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-14.webp">
+                    <div class="video-time">
+                        4:11
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-14.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            #25 Python Tutorial for Beginners | Prime Number in Python
+                        </p>
+                        <p class="video-author">
+                            Telusko
+                        </p>
+                        <p class="video-stats">                 
+                            1M views . 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-15.webp">
+                    <div class="video-time">
+                        31:57
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-15.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            HTML in telugu | Full course in 30 minutes | HTML in one video | Web Development | Vamsi Bhavani
+                        </p>
+                        <p class="video-author">
+                            Vamsi Bhavani
+                        </p>
+                        <p class="video-stats">                 
+                            460K views . 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-16.webp">
+                    <div class="video-time">
+                        3:50
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-16.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Golden Sparrow Lyric Video | Dhanush | Priyanka Mohan | Pavish | Anikha | GV Prakash 
+                        </p>
+                        <p class="video-author">
+                            Wunderbar Films
+                        </p>
+                        <p class="video-stats">                 
+                            
+                            165,298,819 views . 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-17.webp">
+                    <div class="video-time">
+                        6:32
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-17.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Dhanush & Swetha Mohan's "Vaa Vaathi" Performance | Vaathi - Audio Launch | Best Moments | Sun TV
+                        </p>
+                        <p class="video-author">
+                            Sun TV
+                        </p>
+                        <p class="video-stats">                 
+                           125M views . 2 years ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-18.webp">
+                    <div class="video-time">
+                        6:42
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-18.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Al Ittihad vs Al Okhdood | Highlights | Roshn Saudi League | 3rd March 2025
+                        </p>
+                        <p class="video-author">
+                            Sony LIV
+                        </p>
+                        <p class="video-stats">                 
+                            7.9K views . 14 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-19.webp">
+                    <div class="video-time">
+                        56:27
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-19.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            LORD SHIVA DEVOTIONAL SONGS | SHIVUNI PATALU | TELUGU BHAKTI SONGS
+                        </p>
+                        <p class="video-author">
+                            Mana Devotional
+                        </p>
+                        <p class="video-stats">                 
+                            1.6M views . 6 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-20.webp">
+                    <div class="video-time">
+                        4:33
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-20.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Celebrating the Super Kings Way | #CHAMPION5 #IPL2023
+                        </p>
+                        <p class="video-author">
+                            Chennai Super Kings
+                        </p>
+                        <p class="video-stats">                 
+                            2.5M views . 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-21.webp">
+                    <div class="video-time">
+                        4:42
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-21.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Arabic Kuthu - Video Song | Beast | Thalapathy Vijay | Pooja Hegde | Sun Pictures | Nelson | Anirudh
+                        </p>
+                        <p class="video-author">
+                            Sun TV
+                        </p>
+                        <p class="video-stats">                 
+                            696M views  2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-22.webp">
+                    <div class="video-time">
+                        15:42
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-22.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            మంచి దొంగ - STORIES IN TELUGU - TELUGU STORIES 4k - తెలుగు కొత్త కథలు
+                        </p>
+                        <p class="video-author">
+                            Best prime stories telugu
+                        </p>
+                        <p class="video-stats">                 
+                            77K views . 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-23.webp">
+                    <div class="video-time">
+                        2:13
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-23.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            దావూదీ | Devara | NTR | Janhvi Kapoor | Koratala Siva | Anirudh Ravichander
+                        </p>
+                        <p class="video-author">
+                           
+                            T-Series Telugu
+                        </p>
+                        <p class="video-stats">                  
+                            
+                            40M views . 4 months ago 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-24.webp">
+                    <div class="video-time">
+                        28:57:58
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture"src="channel/channel-24.jpeg">
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title">
+                            JavaScript Full Course in Telugu | 30 Hours Complete Tutorial for Beginners & Experts
+                        </p>
+                        <p class="video-author">
+                            Suresh techs
+                        </p>
+                        <p class="video-stats">
+                            62K views . 2 weeks ago
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
